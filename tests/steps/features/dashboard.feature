@@ -7,13 +7,14 @@ Feature: Stats Center Dashboard
     And user validates dashboard page title
 
 
-#  Scenario: Display player statistics categories
-#    When the player statistics dashboard is displayed
-#    Then the dashboard should show the "Goals" category
-#    And the dashboard should show the "Assists" category
-#    And the dashboard should show the "Clean Sheets" category
-#
-#
+  Scenario: Display player statistics categories
+    When the statistics dashboard is displayed
+    Then the dashboard should show the Goals category
+    And the dashboard should show the Assists category
+    And the dashboard should show the Total Passes category
+    And the dashboard should show the Clean Sheets category
+
+
 #  Scenario: Display player list for goals statistics
 #      When the player statistics dashboard is displayed
 #      Then a list of players should be displayed

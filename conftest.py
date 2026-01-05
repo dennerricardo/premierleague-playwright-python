@@ -1,6 +1,6 @@
 import pytest
 from playwright.sync_api import Playwright
-from dashboard_page import DashboardPage
+from pages.dashboard_page import DashboardPage
 
 @pytest.fixture(scope="session")
 def browserInstance(playwright : Playwright):
