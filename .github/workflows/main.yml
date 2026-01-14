@@ -28,16 +28,16 @@ jobs:
 
       - name: Install python dependencies 
         run: | 
-          pyhthon -m pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Run playwright browsers
         run: |
-          pytest -m playwright intsll --with-deps
+          pytest -m playwright install --with-deps
 
       - name: Run playwright browsers
         run: |
-          pytest -v --maxfail+1 --disable-warnings --html=reports.html --self-contained-html
+          pytest -v --maxfail=1 --disable-warnings --html=reports.html --self-contained-html
 
       - name: Upload test reports
         uses: actions/upload-artifact@v4
