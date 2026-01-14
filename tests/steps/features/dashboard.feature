@@ -13,29 +13,19 @@ Feature: Stats Center Dashboard
     And the dashboard should show the Total Passes category
     And the dashboard should show the Clean Sheets category
 
-  Scenario: Display player list for goals statistics
+  Scenario: Display list for goals
       Given user navigates to the Premier League stats page
-      Then a list of players should be displayed
+      Then a list of goals should be displayed
 
-#  Scenario: Display player list for assists statistics
-#      When the player statistics dashboard is displayed
-#      Then a list of players should be displayed
-#      And each player entry should show the player name
-#      And each player entry should show the team name
-#      And each player entry should show the goals value
-#
-#
-#  Scenario: Display player list for total passes statistics
-#      When the player statistics dashboard is displayed
-#      Then a list of players should be displayed
-#      And each player entry should show the player name
-#      And each player entry should show the team name
-#      And each player entry should show the goals value
-#
-#
-#  Scenario: Display player list for clean sheets statistics
-#      When the player statistics dashboard is displayed
-#      Then a list of players should be displayed
-#      And each player entry should show the player name
-#      And each player entry should show the team name
-#      And each player entry should show the goals value
+  Scenario: Display list for assists
+      Given user navigates to the Premier League stats page
+      Then a list of assists should be displayed
+
+  Scenario: Display list for total passes
+      Given user navigates to the Premier League stats page
+      Then a list of total passes should be displayed
+
+  Scenario: Display list for clean Sheets
+      Given user navigates to the Premier League stats page
+      Then a list of clean sheets should be displayed
+

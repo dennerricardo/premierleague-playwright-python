@@ -40,10 +40,22 @@ def test_validates_totalpasses_category(browserInstance):
     expect(browserInstance.totalpasses_title).to_be_visible()
     print(browserInstance.totalpasses_title.first)
 
-
-@then('a list of players should be displayed')
-def test_list_of_players(browserInstance):
+@then('a list of goals should be displayed')
+def test_list_of_goals(browserInstance):
     browserInstance.goals_list()
+
+@then('a list of assists should be displayed')
+def test_list_of_assists(browserInstance):
+    browserInstance.assists_list()
+
+@then('a list of total passes should be displayed')
+def test_list_of_total_passes(browserInstance):
+    browserInstance.total_passes_list()
+
+@then('a list of clean sheets should be displayed')
+def test_list_of_clean_sheets(browserInstance):
+    browserInstance.clean_sheets_list()
+
 
 
 
