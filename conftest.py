@@ -4,7 +4,7 @@ from pages.dashboard_page import DashboardPage
 
 @pytest.fixture(scope="session")
 def browserInstance(playwright : Playwright):
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless=True)
     context = browser.new_context()
     page = context.new_page()
     dashboardPg = DashboardPage(page)
