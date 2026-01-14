@@ -6,7 +6,7 @@ on:
     - cron: "0 0 * * 2,4"
 
 jobs:
-  test:
+  premierleague-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -33,7 +33,7 @@ jobs:
 
       - name: Run playwright browsers
         run: |
-          pytest -m playwright install --with-deps
+          python -m playwright install --with-deps
 
       - name: Run playwright browsers
         run: |
