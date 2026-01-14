@@ -1,0 +1,56 @@
+name: premierleague-ci
+
+on: 
+  push:
+  schedule:
+    - cron: "0 0 * * 2,4"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: action/checkout@v4
+
+      - name: Set up python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache pip
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requiremets.txt') }} 
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install python dependencies 
+        run: | 
+          pyhthon -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run playwright browsers
+        run: |
+          pytest -m playwright intsll --with-deps
+
+      - name: Run playwright browsers
+        run: |
+          pytest -v --maxfail+1 --disable-warnings --html=reports.html --self-contained-html
+
+      - name: Upload test reports
+        uses: actions/upload-artifact@v4
+        with: 
+          name: premierleague-reports
+         
+      
+        
+      
+
+        
+
+        
+        
+          
+          
