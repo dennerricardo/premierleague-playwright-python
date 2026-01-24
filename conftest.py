@@ -7,10 +7,8 @@ def browserInstance(playwright : Playwright):
     browser = playwright.chromium.launch(headless=True)
     context = browser.new_context()
     page = context.new_page()
-    dashboardPg = DashboardPage(page)
 
-    yield dashboardPg
+    yield page
 
     context.close()
     browser.close()
-
