@@ -46,6 +46,8 @@ class DashboardPage:
             print(f"{player}\t{team}\t{assists}")
 
 
+
+
     def total_passes_list(self):
         total_passes_table = self.page.locator("ul[class='stats-leaderboard__leaderboard']").nth(2)
         rows = total_passes_table.locator("li[class='stats-leaderboard__stat-wrapper']")
