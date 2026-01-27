@@ -31,14 +31,13 @@ def statistics_dashboard_displayed(dashboard_page):
 
 
 @then('the dashboard should show the Goals category')
-def validates_goals_category(dashboard_page ,extras):
+def validates_goals_category(dashboard_page ):
     expect(dashboard_page.goal_title).to_be_visible()
     print(dashboard_page.goal_title.text_content())
     # expect(browserInstance.page).to_have_title('Premier League First Team Club Statistics, Team & Player Stats')
 
     screenshot_path = "screenshots/goals_dashboard.png"
     dashboard_page.page.screenshot(path=screenshot_path)
-    extras.append(html_extras.image(screenshot_path))
 
 @then('the dashboard should show the Assists category')
 def validates_assists_category(dashboard_page):

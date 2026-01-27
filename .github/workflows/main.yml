@@ -36,8 +36,8 @@ jobs:
           python -m playwright install --with-deps
 
       - name: Run playwright browsers
-        run: |
-          pytest -v --maxfail=1 --disable-warnings --html=reports.html --self-contained-html
+        run: |  
+          pytest -v --maxfail=0 --disable-warnings --html=reports/report.html --self-contained-html
 
       - name: Upload test reports
         uses: actions/upload-artifact@v4
