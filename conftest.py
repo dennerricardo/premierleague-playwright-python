@@ -16,3 +16,4 @@ def browserInstance(playwright : Playwright):
     context.close()
     browser.close()
 
+
