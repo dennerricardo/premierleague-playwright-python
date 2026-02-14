@@ -1,42 +1,26 @@
 import json
-import requests
+from  tests.utils.goals_api_client import get_leaderboard
 
-url = str (
-        "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v3/"
-        "competitions/8/seasons/2025/players/stats/leaderboard"
-        "?_sort=goals:desc&country=&_limit=10"
-    )
-
-def test_top_scores(api_request_context):
-
-    response = requests.get(url)
-    print(response)
-
-    # Validate response
-    response.raise_for_status()
-
-    # Print the status code
-    status_code = response.status_code
-    print(status_code)
-
-    # Print formatted JSON in terminal
-    data = response.json()
-    print(json.dumps(data, indent=2))
-
-
-def test_can_call_endpoin():
-    response = requests.get(url)
-    status_code = response.status_code
-    print(status_code)
+def test_can_call_endpoint():
+    response = get_leaderboard()
+    print(f"STATUS CODE : {response.status_code}" )
     assert response.status_code == 200
-    pass
 
 
-def test_prints_new_json():
+def test_top10_scores(players_file):
+    with open("players_score_2025_26.json", encoding="utf-8") as f:
+        data = json.load(f)
 
-    response = requests.get(url)
+    print("\n===========================================================================")
+    print(f"{'Player':<21} | {'Team':<25} | Goals")
+    print("==========================================================================")
 
-    # with open("players_leaderboard_2025.json", "w", encoding="utf-8") as file:
-    #     json.dump(data, file, indent=2, ensure_ascii=False)
+    for player in data[:10]:
+        assert "name" in player
+        assert "team" in player
+        assert "goals" in player
+        print(f"{player['name']:<21} | {player['team']:<25}  | {player['goals']} ")
 
-    # print("JSON file created successfully!")
+
+
+

@@ -40,7 +40,7 @@ class DashboardPage:
 
         for i in range(row_count):
             player = rows.nth(i).locator("span[class='stats-leaderboard__name']").text_content()
-            team = rows.nth(i).locator("span[class='stats-leaderboard__team-name u-hide-desktop']").text_content()
+            team = rows.nth(i).locator("span[class='stats-leaderboard__team-name u-show-desktop']").text_content()
             assists = rows.nth(i).locator("span[class='stats-leaderboard__stat-value']").text_content()
 
             print(f"{player}\t{team}\t{assists}")

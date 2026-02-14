@@ -3,4 +3,4 @@ pytest-playwright
 playwright
 pytest-html
 pytest-bdd
-allure-pytest
+jsonschema

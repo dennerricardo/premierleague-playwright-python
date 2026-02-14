@@ -1,9 +1,6 @@
-import os
-
 import pytest
 from playwright.sync_api import Playwright
-
-
+from tests.utils.goals_api_client import generate_players_json
 
 @pytest.fixture(scope="session")
 def browserInstance(playwright : Playwright):
@@ -16,4 +13,9 @@ def browserInstance(playwright : Playwright):
     context.close()
     browser.close()
 
+
+
+@pytest.fixture(scope="session")
+def players_file():
+    return generate_players_json()
 

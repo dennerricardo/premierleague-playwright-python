@@ -1,0 +1,702 @@
+[
+  {
+    "name": "Erling Haaland",
+    "country": "Norway",
+    "position": "Forward",
+    "team": "Manchester City",
+    "goals": 22.0
+  },
+  {
+    "name": "Igor Thiago",
+    "country": "Brazil",
+    "position": "Forward",
+    "team": "Brentford",
+    "goals": 17.0
+  },
+  {
+    "name": "Antoine Semenyo",
+    "country": "Ghana",
+    "position": "Forward",
+    "team": "Manchester City",
+    "goals": 13.0
+  },
+  {
+    "name": "Hugo Ekitiké",
+    "country": "France",
+    "position": "Forward",
+    "team": "Liverpool",
+    "goals": 10.0
+  },
+  {
+    "name": "João Pedro",
+    "country": "Brazil",
+    "position": "Forward",
+    "team": "Chelsea",
+    "goals": 10.0
+  },
+  {
+    "name": "Dominic Calvert-Lewin",
+    "country": "England",
+    "position": "Forward",
+    "team": "Leeds United",
+    "goals": 10.0
+  },
+  {
+    "name": "Bryan Mbeumo",
+    "country": "Cameroon",
+    "position": "Forward",
+    "team": "Manchester United",
+    "goals": 9.0
+  },
+  {
+    "name": "Bruno Guimarães",
+    "country": "Brazil",
+    "position": "Midfielder",
+    "team": "Newcastle United",
+    "goals": 9.0
+  },
+  {
+    "name": "Junior Kroupi",
+    "country": "France",
+    "position": "Forward",
+    "team": "Bournemouth",
+    "goals": 8.0
+  },
+  {
+    "name": "Danny Welbeck",
+    "country": "England",
+    "position": "Forward",
+    "team": "Brighton and Hove Albion",
+    "goals": 8.0
+  },
+  {
+    "name": "Enzo Fernández",
+    "country": "Argentina",
+    "position": "Midfielder",
+    "team": "Chelsea",
+    "goals": 8.0
+  },
+  {
+    "name": "Cole Palmer",
+    "country": "England",
+    "position": "Midfielder",
+    "team": "Chelsea",
+    "goals": 8.0
+  },
+  {
+    "name": "Morgan Rogers",
+    "country": "England",
+    "position": "Forward",
+    "team": "Aston Villa",
+    "goals": 8.0
+  },
+  {
+    "name": "Jean-Philippe Mateta",
+    "country": "France",
+    "position": "Forward",
+    "team": "Crystal Palace",
+    "goals": 8.0
+  },
+  {
+    "name": "Viktor Gyökeres",
+    "country": "Sweden",
+    "position": "Forward",
+    "team": "Arsenal",
+    "goals": 8.0
+  },
+  {
+    "name": "Ollie Watkins",
+    "country": "England",
+    "position": "Forward",
+    "team": "Aston Villa",
+    "goals": 8.0
+  },
+  {
+    "name": "Jarrod Bowen",
+    "country": "England",
+    "position": "Forward",
+    "team": "West Ham United",
+    "goals": 8.0
+  },
+  {
+    "name": "Harry Wilson",
+    "country": "Wales",
+    "position": "Forward",
+    "team": "Fulham",
+    "goals": 8.0
+  },
+  {
+    "name": "Nick Woltemade",
+    "country": "Germany",
+    "position": "Forward",
+    "team": "Newcastle United",
+    "goals": 7.0
+  },
+  {
+    "name": "Richarlison",
+    "country": "Brazil",
+    "position": "Forward",
+    "team": "Tottenham Hotspur",
+    "goals": 7.0
+  },
+  {
+    "name": "Phil Foden",
+    "country": "England",
+    "position": "Midfielder",
+    "team": "Manchester City",
+    "goals": 7.0
+  },
+  {
+    "name": "Kevin Schade",
+    "country": "Germany",
+    "position": "Midfielder",
+    "team": "Brentford",
+    "goals": 6.0
+  },
+  {
+    "name": "Benjamin Sesko",
+    "country": "Slovenia",
+    "position": "Forward",
+    "team": "Manchester United",
+    "goals": 6.0
+  },
+  {
+    "name": "Jaidon Anthony",
+    "country": "England",
+    "position": "Forward",
+    "team": "Burnley",
+    "goals": 6.0
+  },
+  {
+    "name": "Matheus Cunha",
+    "country": "Brazil",
+    "position": "Forward",
+    "team": "Manchester United",
+    "goals": 6.0
+  },
+  {
+    "name": "Morgan Gibbs-White",
+    "country": "England",
+    "position": "Midfielder",
+    "team": "Nottingham Forest",
+    "goals": 6.0
+  },
+  {
+    "name": "Lukas Nmecha",
+    "country": "Germany",
+    "position": "Forward",
+    "team": "Leeds United",
+    "goals": 6.0
+  },
+  {
+    "name": "Bruno Fernandes",
+    "country": "Portugal",
+    "position": "Midfielder",
+    "team": "Manchester United",
+    "goals": 6.0
+  },
+  {
+    "name": "Raúl Jiménez",
+    "country": "Mexico",
+    "position": "Forward",
+    "team": "Fulham",
+    "goals": 6.0
+  },
+  {
+    "name": "Callum Wilson",
+    "country": "England",
+    "position": "Forward",
+    "team": "West Ham United",
+    "goals": 5.0
+  },
+  {
+    "name": "Casemiro",
+    "country": "Brazil",
+    "position": "Midfielder",
+    "team": "Manchester United",
+    "goals": 5.0
+  },
+  {
+    "name": "Thierno Barry",
+    "country": "France",
+    "position": "Forward",
+    "team": "Everton",
+    "goals": 5.0
+  },
+  {
+    "name": "Dango Ouattara",
+    "country": "Burkina Faso",
+    "position": "Forward",
+    "team": "Brentford",
+    "goals": 5.0
+  },
+  {
+    "name": "Martín Zubimendi",
+    "country": "Spain",
+    "position": "Midfielder",
+    "team": "Arsenal",
+    "goals": 5.0
+  },
+  {
+    "name": "Evanilson",
+    "country": "Brazil",
+    "position": "Forward",
+    "team": "Bournemouth",
+    "goals": 5.0
+  },
+  {
+    "name": "Brian Brobbey",
+    "country": "Netherlands",
+    "position": "Forward",
+    "team": "Sunderland",
+    "goals": 5.0
+  },
+  {
+    "name": "Iliman Ndiaye",
+    "country": "Senegal",
+    "position": "Forward",
+    "team": "Everton",
+    "goals": 5.0
+  },
+  {
+    "name": "Tijjani Reijnders",
+    "country": "Netherlands",
+    "position": "Midfielder",
+    "team": "Manchester City",
+    "goals": 5.0
+  },
+  {
+    "name": "Zian Flemming",
+    "country": "Netherlands",
+    "position": "Forward",
+    "team": "Burnley",
+    "goals": 5.0
+  },
+  {
+    "name": "Pedro Neto",
+    "country": "Portugal",
+    "position": "Forward",
+    "team": "Chelsea",
+    "goals": 5.0
+  },
+  {
+    "name": "Cody Gakpo",
+    "country": "Netherlands",
+    "position": "Forward",
+    "team": "Liverpool",
+    "goals": 5.0
+  },
+  {
+    "name": "Ismaïla Sarr",
+    "country": "Senegal",
+    "position": "Forward",
+    "team": "Crystal Palace",
+    "goals": 5.0
+  },
+  {
+    "name": "Kiernan Dewsbury-Hall",
+    "country": "England",
+    "position": "Midfielder",
+    "team": "Everton",
+    "goals": 5.0
+  },
+  {
+    "name": "Harvey Barnes",
+    "country": "England",
+    "position": "Midfielder",
+    "team": "Newcastle United",
+    "goals": 5.0
+  },
+  {
+    "name": "Marcus Tavernier",
+    "country": "England",
+    "position": "Midfielder",
+    "team": "Bournemouth",
+    "goals": 5.0
+  },
+  {
+    "name": "Emiliano Buendía",
+    "country": "Argentina",
+    "position": "Midfielder",
+    "team": "Aston Villa",
+    "goals": 5.0
+  },
+  {
+    "name": "Leandro Trossard",
+    "country": "Belgium",
+    "position": "Forward",
+    "team": "Arsenal",
+    "goals": 5.0
+  },
+  {
+    "name": "Florian Wirtz",
+    "country": "Germany",
+    "position": "Midfielder",
+    "team": "Liverpool",
+    "goals": 4.0
+  },
+  {
+    "name": "Micky van de Ven",
+    "country": "Netherlands",
+    "position": "Defender",
+    "team": "Tottenham Hotspur",
+    "goals": 4.0
+  },
+  {
+    "name": "Malick Thiaw",
+    "country": "Germany",
+    "position": "Defender",
+    "team": "Newcastle United",
+    "goals": 4.0
+  },
+  {
+    "name": "Crysencio Summerville",
+    "country": "Netherlands",
+    "position": "Forward",
+    "team": "West Ham United",
+    "goals": 4.0
+  },
+  {
+    "name": "Ryan Gravenberch",
+    "country": "Netherlands",
+    "position": "Midfielder",
+    "team": "Liverpool",
+    "goals": 4.0
+  },
+  {
+    "name": "Wilson Isidor",
+    "country": "France",
+    "position": "Forward",
+    "team": "Sunderland",
+    "goals": 4.0
+  },
+  {
+    "name": "Noah Okafor",
+    "country": "Switzerland",
+    "position": "Forward",
+    "team": "Leeds United",
+    "goals": 4.0
+  },
+  {
+    "name": "Brenden Aaronson",
+    "country": "United States",
+    "position": "Midfielder",
+    "team": "Leeds United",
+    "goals": 4.0
+  },
+  {
+    "name": "Dominik Szoboszlai",
+    "country": "Hungary",
+    "position": "Midfielder",
+    "team": "Liverpool",
+    "goals": 4.0
+  },
+  {
+    "name": "Eberechi Eze",
+    "country": "England",
+    "position": "Midfielder",
+    "team": "Arsenal",
+    "goals": 4.0
+  },
+  {
+    "name": "Lucas Paquetá",
+    "country": "Brazil",
+    "position": "Midfielder",
+    "team": "West Ham United",
+    "goals": 4.0
+  },
+  {
+    "name": "Bukayo Saka",
+    "country": "England",
+    "position": "Forward",
+    "team": "Arsenal",
+    "goals": 4.0
+  },
+  {
+    "name": "Cristian Romero",
+    "country": "Argentina",
+    "position": "Defender",
+    "team": "Tottenham Hotspur",
+    "goals": 4.0
+  },
+  {
+    "name": "Donyell Malen",
+    "country": "Netherlands",
+    "position": "Forward",
+    "team": "Aston Villa",
+    "goals": 4.0
+  },
+  {
+    "name": "Declan Rice",
+    "country": "England",
+    "position": "Midfielder",
+    "team": "Arsenal",
+    "goals": 4.0
+  },
+  {
+    "name": "Mikel Merino",
+    "country": "Spain",
+    "position": "Midfielder",
+    "team": "Arsenal",
+    "goals": 4.0
+  },
+  {
+    "name": "Mohamed Salah",
+    "country": "Egypt",
+    "position": "Forward",
+    "team": "Liverpool",
+    "goals": 4.0
+  },
+  {
+    "name": "Patrick Dorgu",
+    "country": "Denmark",
+    "position": "Defender",
+    "team": "Manchester United",
+    "goals": 3.0
+  },
+  {
+    "name": "Mateus Fernandes",
+    "country": "Portugal",
+    "position": "Midfielder",
+    "team": "West Ham United",
+    "goals": 3.0
+  },
+  {
+    "name": "Chemsdine Talbi",
+    "country": "Morocco",
+    "position": "Forward",
+    "team": "Sunderland",
+    "goals": 3.0
+  },
+  {
+    "name": "Diego Gómez",
+    "country": "Paraguay",
+    "position": "Midfielder",
+    "team": "Brighton and Hove Albion",
+    "goals": 3.0
+  },
+  {
+    "name": "Mathys Tel",
+    "country": "France",
+    "position": "Forward",
+    "team": "Tottenham Hotspur",
+    "goals": 3.0
+  },
+  {
+    "name": "Yasin Ayari",
+    "country": "Sweden",
+    "position": "Midfielder",
+    "team": "Brighton and Hove Albion",
+    "goals": 3.0
+  },
+  {
+    "name": "Lesley Ugochukwu",
+    "country": "France",
+    "position": "Midfielder",
+    "team": "Burnley",
+    "goals": 3.0
+  },
+  {
+    "name": "Amine Adli",
+    "country": "Morocco",
+    "position": "Forward",
+    "team": "Bournemouth",
+    "goals": 3.0
+  },
+  {
+    "name": "Moisés Caicedo",
+    "country": "Ecuador",
+    "position": "Midfielder",
+    "team": "Chelsea",
+    "goals": 3.0
+  },
+  {
+    "name": "Beto",
+    "country": "Guinea-Bissau",
+    "position": "Forward",
+    "team": "Everton",
+    "goals": 3.0
+  },
+  {
+    "name": "Enzo Le Fée",
+    "country": "France",
+    "position": "Midfielder",
+    "team": "Sunderland",
+    "goals": 3.0
+  },
+  {
+    "name": "Jan Paul van Hecke",
+    "country": "Netherlands",
+    "position": "Defender",
+    "team": "Brighton and Hove Albion",
+    "goals": 3.0
+  },
+  {
+    "name": "Anton Stach",
+    "country": "Germany",
+    "position": "Midfielder",
+    "team": "Leeds United",
+    "goals": 3.0
+  },
+  {
+    "name": "Rayan Cherki",
+    "country": "France",
+    "position": "Midfielder",
+    "team": "Manchester City",
+    "goals": 3.0
+  },
+  {
+    "name": "Lyle Foster",
+    "country": "South Africa",
+    "position": "Forward",
+    "team": "Burnley",
+    "goals": 3.0
+  },
+  {
+    "name": "Keane Lewis-Potter",
+    "country": "England",
+    "position": "Forward",
+    "team": "Brentford",
+    "goals": 3.0
+  },
+  {
+    "name": "Jørgen Strand Larsen",
+    "country": "Norway",
+    "position": "Forward",
+    "team": "Crystal Palace",
+    "goals": 3.0
+  },
+  {
+    "name": "Daniel Muñoz",
+    "country": "Colombia",
+    "position": "Defender",
+    "team": "Crystal Palace",
+    "goals": 3.0
+  },
+  {
+    "name": "Anthony Gordon",
+    "country": "England",
+    "position": "Forward",
+    "team": "Newcastle United",
+    "goals": 3.0
+  },
+  {
+    "name": "Gabriel Magalhães",
+    "country": "Brazil",
+    "position": "Defender",
+    "team": "Arsenal",
+    "goals": 3.0
+  },
+  {
+    "name": "Samuel Chukwueze",
+    "country": "Nigeria",
+    "position": "Forward",
+    "team": "Fulham",
+    "goals": 3.0
+  },
+  {
+    "name": "Tomás Soucek",
+    "country": "Czech Republic",
+    "position": "Midfielder",
+    "team": "West Ham United",
+    "goals": 3.0
+  },
+  {
+    "name": "Emile Smith Rowe",
+    "country": "England",
+    "position": "Midfielder",
+    "team": "Fulham",
+    "goals": 3.0
+  },
+  {
+    "name": "Callum Hudson-Odoi",
+    "country": "England",
+    "position": "Forward",
+    "team": "Nottingham Forest",
+    "goals": 3.0
+  },
+  {
+    "name": "Matty Cash",
+    "country": "Poland",
+    "position": "Defender",
+    "team": "Aston Villa",
+    "goals": 3.0
+  },
+  {
+    "name": "Mason Mount",
+    "country": "England",
+    "position": "Midfielder",
+    "team": "Manchester United",
+    "goals": 3.0
+  },
+  {
+    "name": "Trevoh Chalobah",
+    "country": "England",
+    "position": "Defender",
+    "team": "Chelsea",
+    "goals": 3.0
+  },
+  {
+    "name": "João Palhinha",
+    "country": "Portugal",
+    "position": "Midfielder",
+    "team": "Tottenham Hotspur",
+    "goals": 3.0
+  },
+  {
+    "name": "John McGinn",
+    "country": "Scotland",
+    "position": "Midfielder",
+    "team": "Aston Villa",
+    "goals": 3.0
+  },
+  {
+    "name": "Michael Keane",
+    "country": "England",
+    "position": "Defender",
+    "team": "Everton",
+    "goals": 3.0
+  },
+  {
+    "name": "Virgil van Dijk",
+    "country": "Netherlands",
+    "position": "Defender",
+    "team": "Liverpool",
+    "goals": 2.0
+  },
+  {
+    "name": "Idrissa Gueye",
+    "country": "Senegal",
+    "position": "Midfielder",
+    "team": "Everton",
+    "goals": 2.0
+  },
+  {
+    "name": "Charalampos Kostoulas",
+    "country": "Greece",
+    "position": "Forward",
+    "team": "Brighton and Hove Albion",
+    "goals": 2.0
+  },
+  {
+    "name": "Mateus Mané",
+    "country": "England",
+    "position": "Forward",
+    "team": "Wolverhampton Wanderers",
+    "goals": 2.0
+  },
+  {
+    "name": "Estêvão",
+    "country": "Brazil",
+    "position": "Forward",
+    "team": "Chelsea",
+    "goals": 2.0
+  },
+  {
+    "name": "Chris Wood",
+    "country": "New Zealand",
+    "position": "Forward",
+    "team": "Nottingham Forest",
+    "goals": 2.0
+  }
+]
