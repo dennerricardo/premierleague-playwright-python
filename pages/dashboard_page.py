@@ -6,9 +6,9 @@ class DashboardPage:
         self.page = page
         self.playerstats_title = page.get_by_text("Premier League 2025/26 Player Stats")
         self.goal_title = page.get_by_text("Goals").first
-        self.assists_title = page.get_by_text("Assists")
+        self.assists_title = page.get_by_text("Assists").first
         self.totalpasses_title = page.get_by_text("Total Passes").first
-        self.cleansheets_title = page.get_by_text("Clean Sheets")
+        self.cleansheets_title = page.get_by_text("Clean Sheets").first
 
 
     def navigate(self):

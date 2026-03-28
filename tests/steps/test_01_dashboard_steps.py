@@ -26,14 +26,14 @@ def validates_dashboard_page_title(dashboard_page):
 
 @when('the statistics dashboard is displayed')
 def statistics_dashboard_displayed(dashboard_page):
-    expect(dashboard_page.playerstats_title).to_be_visible()
     print(dashboard_page.playerstats_title.text_content())
+    expect(dashboard_page.playerstats_title).to_be_visible()
 
 
 @then('the dashboard should show the Goals category')
 def validates_goals_category(dashboard_page ):
-    expect(dashboard_page.goal_title).to_be_visible()
     print(dashboard_page.goal_title.text_content())
+    expect(dashboard_page.goal_title).to_be_visible()
     # expect(browserInstance.page).to_have_title('Premier League First Team Club Statistics, Team & Player Stats')
 
     screenshot_path = "screenshots/goals_dashboard.png"
@@ -41,19 +41,19 @@ def validates_goals_category(dashboard_page ):
 
 @then('the dashboard should show the Assists category')
 def validates_assists_category(dashboard_page):
-    expect(dashboard_page.assists_title).to_be_visible()
     print(dashboard_page.assists_title.text_content())
+    expect(dashboard_page.assists_title).to_be_visible()
     # dashboard_page.assists_title.screenshot(path="report/assist_list.png")
 
 @then('the dashboard should show the Clean Sheets category')
 def validates_cleansheets_category(dashboard_page):
-    expect(dashboard_page.cleansheets_title).to_be_visible()
     print(dashboard_page.cleansheets_title.text_content())
+    expect(dashboard_page.cleansheets_title).to_be_visible()
 
 @then('the dashboard should show the Total Passes category')
 def validates_totalpasses_category(dashboard_page):
-    expect(dashboard_page.totalpasses_title).to_be_visible()
     print(dashboard_page.totalpasses_title.text_content())
+    expect(dashboard_page.totalpasses_title).to_be_visible()
 
 @then('a list of goals should be displayed')
 def list_of_goals(dashboard_page):

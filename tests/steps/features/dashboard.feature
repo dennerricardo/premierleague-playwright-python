@@ -7,6 +7,7 @@ Feature: Stats Center Dashboard
     And user validates dashboard page title
 
   Scenario: Display player statistics categories
+    Given user navigates to the Premier League stats page
     When the statistics dashboard is displayed
     Then the dashboard should show the Goals category
     And the dashboard should show the Assists category
@@ -14,18 +15,18 @@ Feature: Stats Center Dashboard
     And the dashboard should show the Clean Sheets category
 
   Scenario: Display list for goals
-      Given user navigates to the Premier League stats page
-      Then a list of goals should be displayed
+    Given user navigates to the Premier League stats page
+    Then a list of goals should be displayed
 
   Scenario: Display list for assists
-      Given user navigates to the Premier League stats page
-      Then a list of assists should be displayed
+    Given user navigates to the Premier League stats page
+    Then a list of assists should be displayed
 
   Scenario: Display list for total passes
-      Given user navigates to the Premier League stats page
-      Then a list of total passes should be displayed
+    Given user navigates to the Premier League stats page
+    Then a list of total passes should be displayed
 
   Scenario: Display list for clean Sheets
-      Given user navigates to the Premier League stats page
-      Then a list of clean sheets should be displayed
+    Given user navigates to the Premier League stats page
+    Then a list of clean sheets should be displayed
 
